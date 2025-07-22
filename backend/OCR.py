@@ -14,7 +14,7 @@ import pandas as pd
 from pathlib import Path
 
 # === Config ===
-genai.configure(api_key="AIzaSyCNeyq0QnbqyqX6EoGKQSMPqck5i0pasRw")
+genai.configure(api_key="Gemini API key")
 
 # Load the Gemini multimodal model
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
